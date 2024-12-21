@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>1234567890123456789012345678901234567890</title>
+    <style type="text/css">
+        .frame_class {
+            width: 50%;
+            text-align: center;
+            position: absolute;
+            left: 25%;
+        }
+        .title_class {
+            font-size: 2vw;
+            font-family: Arial Rounded MT Bold;
+            margin-top: 5%;
+        }
+        img {
+            margin-top: 5%;
+            width: 100%;
+        }
+        #text {
+            font-family: Lato;
+            margin-top: 5%;
+        }
+        .ad_container {
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .ad {
+            display: inline-block;
+            width: 200px; /* 标准广告尺寸 */
+            height: 730px; /* 标准广告尺寸 */
+            background-color: #f2f2f2; /* 背景色，实际使用时可以替换为广告内容 */
+            margin-left: 80%;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="changeText()">寻人启事</button>
+    <div class="frame_class">
+        <div class="title_class" id="title_id">Coromandel shooting leaves one dead, another in serious condition</div>
+        <img src="1111.webp" id="image_id">
+        <div id="text">
+            <p>One person is dead and another person is in a serious condition after a shooting in the Coromandel.</p>
+        </div>
+        <div id="title1_id">
+            <p>The 309 Road which connects the towns of Coromandel and Whitianga was closed at Waiau, Thames, with members of the public advised to avoid the area.</p>
+        </div>
+    </div>
+    <!-- 广告区 -->
+    <div class="ad_container">
+        <div class="ad">
+            <!-- 广告内容 -->
+            <!-- 实际使用时，这里可以是广告图片、广告代码或者链接到广告的链接 -->
+            <p>ad area</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function changeText() {
+            document.getElementById('title_id').innerHTML = "Police appeal for residents to check properties again as search continues for missing Porirua man";
+            document.getElementById('text').innerHTML = "Police are working to find Porirua man Graham Russell Smith, who has been missing since November 10.";
+            document.getElementById('title1_id').innerHTML = "Smith, 77, was reported missing on the evening of November 10 after going for a walk in an area of bush in Porirua with an extensive track network.";
+            document.getElementById('image_id').src = "amina.webp";
+        }
+    </script>
+</body>
+</html>
